@@ -98,3 +98,13 @@ header p {
     flex-wrap: wrap;
     gap: 8px;
 }
+/* Adds a gap right after the H1 title */
+header h1 {
+    margin-bottom: 20px; /* Increase or decrease this number to adjust the gap */
+}
+
+/* Closes the gap between the paragraph tags */
+header p {
+    margin-top: 4px;     /* Minimal space above each paragraph */
+    margin-bottom: 4px;  /* Minimal space below each paragraph */
+}
